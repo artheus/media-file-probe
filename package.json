@@ -1,0 +1,26 @@
+{
+  "name": "videotest",
+  "version": "0.0.1",
+  "description": "testing the ability to get metadata about video and audio files",
+  "main": "index.js",
+  "bin": {
+    "videotest": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morten Hekkvang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:artheus/videotest.git"
+  },
+  "keywords": [
+    "media",
+    "video",
+    "metadata"
+  ],
+  "dependencies": {
+    "minimist": "^1.1.0"
+  }
+}
