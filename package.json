@@ -1,10 +1,10 @@
 {
-  "name": "videotest",
+  "name": "media-file-probe",
   "version": "0.0.1",
   "description": "testing the ability to get metadata about video and audio files",
   "main": "index.js",
   "bin": {
-    "videotest": "./index.js"
+    "media-file-probe": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,10 +13,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:artheus/videotest.git"
+    "url": "git@github.com:artheus/media-file-probe.git"
   },
   "keywords": [
     "media",
+    "audio",
     "video",
     "metadata"
   ],
