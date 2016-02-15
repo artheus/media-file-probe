@@ -7,7 +7,7 @@
     "media-file-probe": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified yet\" && exit 0"
   },
   "author": "Morten Hekkvang",
   "license": "MIT",
