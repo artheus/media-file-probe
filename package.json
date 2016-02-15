@@ -4,7 +4,7 @@
   "description": "testing the ability to get metadata about video and audio files",
   "main": "index.js",
   "bin": {
-    "media-file-probe": "./index.js"
+    "media-file-probe": "./lib/cli.js"
   },
   "scripts": {
     "test": "echo \"No tests specified yet\" && exit 0"
