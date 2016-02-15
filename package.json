@@ -1,10 +1,10 @@
 {
   "name": "media-file-probe",
-  "version": "0.0.1",
-  "description": "testing the ability to get metadata about video and audio files",
+  "version": "0.0.3",
+  "description": "Use ffprobe to get metadata about video and audio files",
   "main": "index.js",
   "bin": {
-    "media-file-probe": "./index.js"
+    "media-file-probe": "./lib/cli.js"
   },
   "scripts": {
     "test": "echo \"No tests specified yet\" && exit 0"
@@ -13,7 +13,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:artheus/media-file-probe.git"
+    "url": "git+ssh://git@github.com/artheus/media-file-probe.git"
   },
   "keywords": [
     "media",
@@ -23,5 +23,10 @@
   ],
   "dependencies": {
     "minimist": "^1.1.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/artheus/media-file-probe/issues"
+  },
+  "homepage": "https://github.com/artheus/media-file-probe#readme",
+  "devDependencies": {}
 }
