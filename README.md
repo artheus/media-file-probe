@@ -4,3 +4,33 @@
 [![Dependency Status](https://david-dm.org/artheus/media-file-probe.svg)](https://david-dm.org/artheus/media-file-probe.svg)
 
 Tiny module, using ffprobe, to collect metadata about media files.
+
+## Install
+```bash
+npm install media-file-probe
+```
+
+## Usage
+```javascript
+var MediaFileProbe = require('media-file-probe');
+
+
+var prober = new MediaFileProbe();
+
+var metadata = prober.probe('/Users/artheus/somemediafile.mov');
+
+// Now you can read the media file data from the metadata variable
+```
+
+## CLI
+There is also a cli tool included that simply does what is in the example usage above and then prints the metadata.
+You can use it like this
+
+```bash
+npm install -g media-file-probe
+
+media-file-probe /Users/artheus/somemediafile.mov
+{
+	... Lots o' metadata ...
+}
+```
