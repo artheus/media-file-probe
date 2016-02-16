@@ -1,6 +1,6 @@
 {
   "name": "media-file-probe",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use ffprobe to get metadata about video and audio files",
   "main": "index.js",
   "bin": {
@@ -19,7 +19,9 @@
     "media",
     "audio",
     "video",
-    "metadata"
+    "metadata",
+    "ffmpeg",
+    "ffprobe"
   ],
   "dependencies": {
     "minimist": "^1.1.0"
