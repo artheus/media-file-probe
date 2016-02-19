@@ -12,14 +12,12 @@ npm install media-file-probe
 
 ## Usage
 ```javascript
-var MediaFileProbe = require('media-file-probe');
+var mediaprober = require('media-file-probe')();
 
+mediaprober.probe('/Users/artheus/somemediafile.mov').on('metadata', function(data){
+	// Now you can read the media file data from the data variable
+});
 
-var prober = new MediaFileProbe();
-
-var metadata = prober.probe('/Users/artheus/somemediafile.mov');
-
-// Now you can read the media file data from the metadata variable
 ```
 
 ## CLI
