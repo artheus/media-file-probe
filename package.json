@@ -24,7 +24,7 @@
     "ffprobe"
   ],
   "dependencies": {
-    "minimist": "^1.1.0"
+    "minimist": "^1.2.2"
   },
   "bugs": {
     "url": "https://github.com/artheus/media-file-probe/issues"
